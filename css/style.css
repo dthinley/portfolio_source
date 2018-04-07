@@ -83,6 +83,7 @@
      color: #fff;
      font-size: 40px;
      display: none;
+     cursor: pointer;
 }
 /*---Intro/Home page--*/
  .intro-box {
@@ -250,6 +251,10 @@
      width: 90%;
      height: auto;
      border-radius: 10px;
+}
+
+.project img:hover{
+     opacity: .8;
 }
 /*Contact Section*/
  .contact-container{

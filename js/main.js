@@ -23,6 +23,7 @@ $(document).ready(function(){
   });
 });
 
+//scroll function
 $(window).scroll(function(){
 
 	var top=$(window).scrollTop();
@@ -35,3 +36,19 @@ $(window).scroll(function(){
 		$(".wrapper").removeClass('sticky');
 	}
 	});
+
+
+//Menu Section
+	$('.menu').on('click',function(){
+		$('.nav-bar').addClass('active');
+
+	});
+
+	$('.nav-bar li').on("click", function(){
+		$('.nav-bar').removeClass('active');
+	});
+		
+	
+		
+
+
